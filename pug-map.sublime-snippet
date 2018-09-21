@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:object}.map((item, key) => {
+	const {} = item;
+	return pug`
+		Fragment(key=key)
+			${2:div}
+	`;
+})
+]]></content>
+    <tabTrigger>pgmap</tabTrigger>
+    <scope>source.js</scope>
+    <description>pug: map((item,key) => { return  pug ` ... ` })</description>
+</snippet>
