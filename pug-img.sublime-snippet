@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+img(src="${1:#}" alt="${2:text here...}") $0
+]]></content>
+    <tabTrigger>pgimg</tabTrigger>
+    <scope>text.pug</scope>
+    <description>pug: img(src="" alt="") ...</description>
+</snippet>

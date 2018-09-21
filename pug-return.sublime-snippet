@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+return pug`
+	${1:div ${2:text here...}}
+`;$0
+]]></content>
+    <tabTrigger>pgr</tabTrigger>
+    <scope>text.pug</scope>
+    <description>pug: return pug ` .. `;</description>
+</snippet>
